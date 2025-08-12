@@ -1,0 +1,41 @@
+/*
+
+	Theme Name: Born Again - One Page Portfolio Site
+	Author:		Dan Richardson (Subatomic Themes)
+	Version:	1.0
+	Stylesheet:	Internet Explorer version 8 specicfic Stylesheet (ie8.css)
+
+*/
+
+/* Non-Retina images for ie8 -- START */
+#sidebar .widget_nav_menu ul li a,
+#sidebar .widget_meta ul li a,
+#sidebar .widget_links ul li a,
+#sidebar .widget_archive ul li a,
+#sidebar .widget_pages ul li a,
+#sidebar .widget_categories ul li a,
+#sidebar .widget_recent_comments ul li a,
+#sidebar .widget_recent_entries ul li a		{ background: url(../images/icons/bullet_star.png) no-repeat 12px 14px; }
+#sidebar .widget_tag_cloud a 				{ background: url(../images/icons/tag.png) no-repeat 0 8px; }
+#post_comments ol li ol li article:before	{ background: url(../images/assets/down_arrow.png) no-repeat 50% -4px; }
+.entry-content ul li						{ background: url(../images/icons/bullet_star.png) no-repeat 12px 10px; }
+.post_tags									{ background: url(../images/icons/blog_tags.png) no-repeat 0 50%; }
+.comment-reply-link							{ background: url(../images/assets/reply.png) no-repeat 0 4px; }
+.btt										{ z-index: 998; background: url(../images/assets/btt_button.png) no-repeat; }
+.entry_date									{ background: url(../images/assets/date_bg.png) 		no-repeat; }
+.older_posts_link							{ background: url(../images/icons/blog_prev.png) 		no-repeat 0 -3px; }
+.newer_posts_link							{ background: url(../images/icons/blog_next.png) 		no-repeat 100% -3px; }
+.post_author								{ background: url(../images/icons/blog_author.png) 		no-repeat; }
+.post_date									{ background: url(../images/icons/blog_date.png)		no-repeat; }
+.post_category								{ background: url(../images/icons/blog_categories.png)	no-repeat; }
+.post_no_of_comments						{ background: url(../images/icons/blog_comments.png) 	no-repeat; }
+#searchsubmit								{ background: url(../images/icons/search.png) 			no-repeat center center; }
+/* Non-Retina images for ie8 -- END */
+
+#page_header_after 							{ z-index: 997; }
+#page_header_overlay nav ul li a:hover		{ background: #353535; }
+#portfolio_overlay,
+#team_overlay								{ padding-bottom: 160px; }
+#contact_form input[type="text"],
+#s,
+#commentform input[type="text"]				{ padding-top: 15px; }

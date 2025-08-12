@@ -1,0 +1,186 @@
+/*
+
+	Theme Name: Born Again - One Page Portfolio Site
+	Author:		Dan Richardson (Subatomic Themes)
+	Version:	1.0.1
+	Stylesheet:	Stylesheet for Typography (typography.css)
+	Used Fonts: "PT Sans" , "Yanone Kaffeesatz" , "Crete Round"
+	
+*/
+
+/*
+ * Font Families ---
+ *========================================================================================================================================*/
+body,
+.team_content h4,
+.entry_date,
+.entry-content blockquote						{ font-family: "Exo", Helvetica , Arial , sans-serif, "微軟正黑體"; font-size: 16px;	line-height: 25px; }
+
+h1, h2, h3, h4, h5, h6,
+#main_intro_overlay p,
+.post_meta,
+.show_me,
+.cta a,
+.post_tags a,
+#post_comments cite,
+#contact_form input[type="submit"],
+#commentform input[type="submit"]				{ font-family: "Exo", Helvetica , Arial , sans-serif, "微軟正黑體"; font-weight: normal; /* Use this to keep normal font weight with Google Fonts and fonts already installed on your computer */ }
+
+
+.cta p,
+section .intro p,
+#gamespace_overlay h2,
+.testimonial h2									{ font-family: "Russo One", Georgia , serif, "微軟正黑體"; }
+
+#gamespace_overlay blockquote,
+.testimonial blockquote							{ font-family: "Exo", "Russo One", Georgia , serif, "微軟正黑體"; }
+
+/*
+ * Page Header --- 
+ *========================================================================================================================================*/
+#navigation ul									{ font-family: "Exo", "Russo One", Helvetica , Arial , sans-serif, "微軟正黑體"; font-size: 14px;	font-weight: bold; text-transform: uppercase; }
+#navigation ul li a								{ line-height: 90px; text-decoration: none;	text-shadow: 2px 2px 0px rgba(0,0,0,0.55); }
+
+/*
+ * Main Intro Area ---
+ *========================================================================================================================================*/
+#main_intro_overlay								{ text-align: center; }
+#main_intro_overlay h1,
+#main_intro_overlay h1 span						{ font-size: 50px; line-height: 60px; text-transform: none; font-weight: bold;  }
+#main_intro_overlay p							{ font-size: 36px; line-height: 40px; text-shadow: 3px 3px 0px rgba(0,0,0,0.10); font-weight: bold; }
+
+/*
+ * "Show me what you've got" Button ---
+ *========================================================================================================================================*/
+.show_me 										{ font-size: 18px; text-transform: uppercase; text-decoration: none; line-height: 40px; }
+
+/*
+ * Main Content and "Call to Action" ---
+ *========================================================================================================================================*/
+section h1										{ font-size: 64px; line-height: 48px; text-align: center; text-transform: uppercase; text-shadow: 4px 4px 0px rgba(0,0,0,0.10); }
+section h1 span									{ font-size: 36px; text-transform: none; }
+section h2										{ font-size: 32px; line-height: 30px; text-transform: uppercase; text-shadow: 3px 3px 0px rgba(0,0,0,0.10); }
+section h3										{ font-size: 30px; line-height: 30px; text-transform: uppercase; text-shadow: 2px 2px 0px rgba(0,0,0,0.10); }
+section p										{ text-shadow: 2px 2px 0px rgba(0,0,0,0.10); }
+section p strong								{ font-weight: 700; }
+.cta p,
+section .intro p								{ font-size: 20px; font-style: italic; line-height: 30px; text-shadow: 2px 2px 0px rgba(0,0,0,0.25); }
+.cta a											{ font-size: 32px; line-height: 56px; text-transform: uppercase; text-decoration: none;	text-shadow: 1px 1px 0px #dfdfdf; }
+.cta a:hover									{ text-shadow: 1px 1px 0px rgba(0,0,0,0.10); }
+
+/*
+ * Portfolio ---
+ *========================================================================================================================================*/
+.portfolio_list									{ text-align: center; }
+.portfolio_list li a							{ font-size: 14px; font-weight: 700; line-height: 60px;	text-decoration: none; text-transform: uppercase; text-shadow: 2px 2px 0px rgba(0,0,0,0.10); }
+.main_portfolio li p							{ font-size: 16px; font-style: italic; text-align: center; text-shadow: 1px 1px 0px rgba(0,0,0,0.10); }
+
+/*
+ * Sidebar Widget Title ---
+ *========================================================================================================================================*/
+.widget-title									{ font-size: 30px; text-transform: uppercase; text-shadow: 4px 4px 0px rgba(0,0,0,0.10); }
+
+/*
+ * Blog Entry ---
+ *========================================================================================================================================*/
+.post_meta										{ text-align: center; font-size: 22px; }
+.entry_date										{ font-size: 24px; font-weight: bold; line-height: 100px; text-align: center; text-transform: uppercase; text-shadow: 1px 1px 0px #bfbfbf; }
+.entry_header h2								{ font-size: 38px; line-height: 34px; text-transform: uppercase; text-shadow: 3px 3px 0px rgba(0,0,0,0.10); }
+.entry_header h2 a								{ text-decoration: none; }
+.entry_header p									{ font-size: 14px; font-style: italic; line-height: 12px; }
+.entry-content h1								{ font-size: 30px; line-height: 24px; text-align: left; }
+.entry-content h2								{ font-size: 26px; }
+.entry-content a:hover							{ text-decoration: none; }
+.entry-content ul								{ font-size: 16px; font-weight: 700; line-height: 30px;	text-shadow: 1px 1px 0px rgba(0,0,0,0.15); }
+.entry-content blockquote
+{
+	font-size: 20px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: -0.8px;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.15);
+}
+.dropcap										{ font-size: 80px; font-weight: 700; }
+.read_more										{ font-style: italic; font-weight: 700; }
+.wp-caption										{ font-size: 16px; font-style: italic; text-align: center; text-shadow: 1px 1px 0px rgba(0,0,0,0.10); }
+.post_tags a									{ font-size: 22px; font-weight: 700; text-decoration: none;	text-shadow: 0px 2px 0px rgba(0,0,0,0.15); }
+
+/*
+ * Post Comments ---
+ *========================================================================================================================================*/
+#post_comments cite								{ font-size: 30px; font-style: normal; font-weight: 700; text-shadow: 2px 2px 0px rgba(0,0,0,0.15); }
+#post_comments time								{ font-size: 14px; font-style: italic; text-shadow: 1px 1px 0px rgba(0,0,0,0.15); }
+#post_comments time span						{ font-weight: 700; }
+#respond a										{ text-decoration: none; }
+.comment-reply-link								{ font-size: 16px; font-weight: bold; text-decoration: none; text-shadow: 1px 1px 0px rgba(0,0,0,0.15); }
+
+/*
+ * Blog Pagination ---
+ *========================================================================================================================================*/
+.blog_pagination a								{ font-size: 18px; font-style: italic; font-weight: 700; text-decoration: none; text-shadow: 0px 1px 0px rgba(255,255,255,0.15); }
+.blog_pagination a:hover						{ text-shadow: 2px 2px 0px rgba(0,0,0,0.20); }
+
+/*
+ * Team Section ---
+ *========================================================================================================================================*/
+.team_photo										{ text-align: center; }
+.team_content h3								{ font-size: 24px; line-height: 24px; text-align: right; text-transform: uppercase;	text-shadow: 2px 2px 0px rgba(0,0,0,0.10); }
+.team_content h4								{ font-size: 14px; font-style: italic; letter-spacing: 0; text-shadow: 1px 1px 0px rgba(0,0,0,0.10); }
+
+/*
+ * Testimonials ---
+ *========================================================================================================================================*/
+.testimonial h2								{ text-align: center; }
+.testimonial blockquote						{ text-align: alignleft; font-size: 20px; font-style: normal; line-height: 36px; letter-spacing: 1px; word-spacing: 2px; text-shadow: 3px 3px 0px rgba(0,0,0,0.45); }
+.testimonial strong							{ color: #66FFDD; letter-spacing: 3px}
+
+#gamespace_overlay h2						{ text-align: center; }
+#gamespace_overlay blockquote					{ text-align: alignleft; font-size: 20px; font-style: normal; line-height: 36px; letter-spacing: 1px; word-spacing: 2px; text-shadow: 3px 3px 0px rgba(0,0,0,0.45); }
+#gamespace_overlay strong						{ color: #66FFDD;}
+
+/*
+ * Forms ---
+ *========================================================================================================================================*/
+#contact_form label,
+#commentform label								{ text-shadow: 1px 1px 0px rgba(0,0,0,0.20); }
+#contact_form label.error,
+#commentform label.error						{ float: none; text-align: right; }
+#contact_form input[type="text"],
+#commentform input[type="text"],
+#s,
+#contact_form textarea,
+#commentform textarea							{ font-size: 16px; font-weight: bold; }
+#contact_form input[type="submit"],
+#commentform input[type="submit"]				{ font-size: 32px; text-align: center; text-transform: uppercase; text-shadow: 0px 1px 0px rgba(255,255,255,0.65); }
+#contact_form input[type="submit"]:hover,
+#commentform input[type="submit"]:hover			{ text-shadow: 2px 2px 0px rgba(0,0,0,0.15); }
+
+/*
+ * Sidebar ---
+ *========================================================================================================================================*/
+#sidebar .widget_nav_menu ul li a,
+#sidebar .widget_meta ul li a,
+#sidebar .widget_links ul li a,
+#sidebar .widget_archive ul li a,
+#sidebar .widget_pages ul li a,
+#sidebar .widget_categories ul li a,
+#sidebar .widget_recent_comments ul li a,
+#sidebar .widget_recent_entries ul li a			{ font-size: 16px; font-weight: 700; line-height: 40px;	text-decoration: none; text-shadow: -1px -1px 0px rgba(0,0,0,0.25); }
+#sidebar .widget_tag_cloud a 					{ font-size: 16px; font-weight: 700; text-decoration: none; text-shadow: 0px 1px 0px rgba(0,0,0,0.15); }
+
+/*
+ * Footer ---
+ *========================================================================================================================================*/
+#main_footer_overlay p 							{ font-size: 18px; font-weight: bold; text-shadow: 0px 2px 1px rgba(0,0,0,0.25); }
+#main_footer_overlay a 							{ text-decoration: none; }
+
+/*
+ * Input Placeholder Text ---
+ *========================================================================================================================================*/
+::-webkit-input-placeholder 					{ color: #666; font-weight: normal; }
+:-moz-placeholder 								{ color: #666; font-weight: normal; }
+::-moz-placeholder 								{ color: #666; font-weight: normal; }
+:-ms-input-placeholder 							{ color: #666 !important; font-weight: normal !important; }
+.placeholder_text								{ color: #999 !important; font-weight: normal !important; }

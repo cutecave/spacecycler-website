@@ -1,0 +1,296 @@
+/*
+
+	Theme Name: Born Again - One Page Portfolio Site
+	Author:		Dan Richardson (Subatomic Themes)
+	Version:	1.0.1
+	Stylesheet:	Stylesheet to change colours, background images etc. (skins.css)
+
+*/
+
+/*
+ * Main Body - Font and Background Colour.
+ *========================================================================================================================================*/
+body											{ color: #fff; background: #fff; }
+
+/*
+ * Page Header - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#page_header 									{ background: url(../images/bg003.jpg) no-repeat fixed 0% 0 #595959; }
+#page_header_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Page Header Navigation - Font Colour and Background Hover.
+ *========================================================================================================================================*/
+#navigation ul li a									{ color: #fff; }
+#navigation ul li a:hover							{ background: rgba(0,0,0,0.30); }
+
+/*
+ * Main Intro - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#main_intro										{ background: url(../images/Screenshot_155.jpg) no-repeat 50% 50% #4ecdc4; height: 910px;}
+#main_intro_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; height: 910px;}
+
+#main_intro_overlay p					{ color: #000;text-shadow: 0px 0px 2px #FFF,
+														0px 0px 4px #FFF,
+														0px 0px 6px #FFF,
+														0px 0px 8px #FFF,
+														0px 0px 8px #FFF,
+														0px 0px 8px #FFF,
+														0px 0px 8px #FFF; }
+		
+/*========================================================================================================================================*/
+#youtube {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:0px;
+	height:0;
+	overflow:hidden;
+	margin-top:80px;
+}
+#youtube iframe, #youtube object, #youtube embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/*
+ * Services Section - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#services										{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #ff6b6b; }
+#services_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Portfolio Section - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#portfolio 										{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #556270; }
+#portfolio_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Blog Section - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#blog											{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #c44d58; }
+#blog_overlay									{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Team Section - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#team 											{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #3dcc90; }
+#team_overlay									{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Contact Section - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#contact										{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #4c5d66; }
+#contact_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Footer Section - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+/*#main_footer 									{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #404040; }
+#main_footer_overlay 							{ background: url(../images/backgrounds/noise_light.png) repeat; }*/
+#main_footer									{ background: url(../images/Screenshot_174.jpg) no-repeat 50% 20% #665599; height: 940px; background-size: cover;}
+/*#main_footer_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }*/
+#main_footer_overlay .container                                   { bottom:-800px; }
+
+/*
+ * Subpage Intro - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#subpage_intro									{ background: url(../images/backgrounds/shadow.png) no-repeat fixed 50% 0 #4ecdc4; }
+#subpage_intro_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Main Blog Page - Background Colour and Image Overlay (Optional).
+ *========================================================================================================================================*/
+#main_blog										{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #c44d58; }
+#main_blog_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+
+/*
+ * Game - Space
+ *========================================================================================================================================*/
+#gamespace 										{ background: url(../images/bg003.jpg) repeat fixed #665599; }
+#gamespace_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+#gamespace2 										{ background: url(../images/Screenshot_152.jpg) repeat fixed #665599; }
+#gamespace2_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+#gamespace3 										{ background: url(../images/bg003.jpg) repeat fixed #665599; }
+#gamespace3_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
+
+/*
+ * Each Testimonial Area's Background Colour and Image Overlay (Add more where needed).
+ *========================================================================================================================================*/
+.testimonial_01 									{ background: url(../images/Screenshot_174.jpg) no-repeat fixed #575757; }
+.testimonial_01_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
+.testimonial_02									{ background: url(../images/bg006.png) no-repeat fixed #575757; }
+.testimonial_02_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
+.testimonial_03 									{ background: url(../images/bg003.jpg) fixed #575757; }
+.testimonial_03_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
+.testimonial_04 									{ }
+.testimonial_04_overlay							{ }
+.testimonial_05 									{ }
+.testimonial_05_overlay							{ }
+
+/*
+ * My custom style
+ *========================================================================================================================================*/
+.screenshot,
+.screenshot2								{ position: relative; text-align: center; outline: 0;}
+.screenshot a,
+.screenshot2 a								{ color: #fff; position: relative;}
+.screenshot img								{ color: #fff; width: 30%; max-width: 280px; margin-left: 15px; }
+.screenshot2 img								{ color: #fff; width: 30%; max-width: 293px; margin-left: 15px; }
+
+/*
+ * Main Headers Title, Subtitle and Span Colour.
+ *========================================================================================================================================*/
+section h1 										{ color: #fff; }
+section h2 span									{ color: #c7f464; }
+section h3 span									{ color: #c7f464; }
+section .intro p strong							{ color: #c7f464; }
+
+/*
+ * Main Intro area's Span colours.
+ *========================================================================================================================================*/
+#main_intro_overlay p span						{ color: #c7f464; }
+#main_intro_overlay h1 span						{ color: #c7f464; }
+
+/*
+ * "Show me what you've got!" button's background and font colour.
+ *========================================================================================================================================*/
+.show_me 										{ color: #c44d58; background: #fff; }
+.show_me:hover									{ background: #c44d58; color: #fff; }
+
+/*
+ * Sortable Portfolio font colour.
+ *========================================================================================================================================*/
+.portfolio_list li a							{ color: #fff; }
+
+/*
+ * Main Portfolio's colour options.
+ *========================================================================================================================================*/
+.main_portfolio li,
+.main_portfolio li.item_disabled:hover			{ background: #fff; color: #000; }
+.main_portfolio li:hover						{ background: #c44d58; color: #fff; }
+
+/*
+ * "Call to Action" button's colour options.
+ *========================================================================================================================================*/
+.cta a											{ background: #fff; color: #ff6b6b; }
+.cta p strong									{ color: #c7f464; }
+.cta a:hover									
+{ 
+	background: #ff6b6b; 
+	color: #fff;
+	-webkit-box-shadow: inset 0px 0px 0px 3px #fff, 3px 3px 0px rgba(0,0,0,0.10);
+	   -moz-box-shadow: inset 0px 0px 0px 3px #fff, 3px 3px 0px rgba(0,0,0,0.10); 
+	        box-shadow: inset 0px 0px 0px 3px #fff, 3px 3px 0px rgba(0,0,0,0.10); 
+}
+
+/*
+ * Team Section.
+ *========================================================================================================================================*/
+.team_content h3 strong							{ color: #c7f464; }
+
+/*
+ * Blog Posts.
+ *========================================================================================================================================*/
+.entry_date										{ color: #cc3d3d; }
+.entry_header h2 a								{ color: #fff; }
+.entry_header h2 a:hover						{ color: #c7f464; }
+.entry_header p span							{ color: #c7f464; }
+.entry-content a								{ color: #c7f464; }
+.read_more:hover								{ color: #c7f464; }
+.post_meta a:hover								{ color: #c7f464; }
+.wp-caption										{ background: #fff; color: #000; }
+.post_tags a									{ color: #fff; }
+.post_tags a:hover								{ color: #c7f464; }
+
+.comment-reply-link								{ color: #c7f464; }
+.comment-reply-link:hover						{ color: #fff; }
+#post_comments ol li ol li article				{ background: #4c5d66; }
+#post_comments ol li ol li ol li article		{ background: #3dcc90; }
+#post_comments ol li ol li ol li ol li article	{ background: #ff6b6b; }
+
+#respond a										{ color: #c7f464; }
+#respond a:hover								{ color: #fff; }
+
+/*
+ * Blog pagination's font colours.
+ *========================================================================================================================================*/
+.blog_pagination a								{ color: #000; color: rgba(0,0,0,0.65); }
+.blog_pagination a:hover						{ color: #fff; }
+
+/*
+ * "Read More..." link's font colour.
+ *========================================================================================================================================*/
+a.read_more										{ color: #fff; }
+
+/*
+ * Contact form's textfield, font, border and background colours.
+ *========================================================================================================================================*/
+#contact_form input[type="text"],
+#commentform input[type="text"],
+#s												{ color: #000; }
+#contact_form input[type="submit"],
+#commentform input[type="submit"]				{ background: #c7f464; color: #637b2e; }
+#contact_form input[type="submit"]:hover,
+#commentform input[type="submit"]:hover			{ background: #c44d58; color: #ffffff; }
+#contact_form label span,
+#contact_form label.error,
+#commentform label span,
+#commentform label.error						{ color: #ff6b6b; }
+#contact_form input[type="text"]:hover,
+#commentform input[type="text"]:hover,
+#s:hover,
+#contact_form textarea:hover,
+#commentform textarea:hover						{ background: #e5e5e5; }
+#contact_form input[type="text"]:focus,
+#commentform input[type="text"]:focus,
+#s:focus,
+#contact_form textarea:focus,
+#commentform textarea:focus
+{
+	-webkit-box-shadow: inset 0px 0px 0px 2px #c7f464;
+	   -moz-box-shadow: inset 0px 0px 0px 2px #c7f464;
+	        box-shadow: inset 0px 0px 0px 2px #c7f464;
+}
+#contact_form input[type="text"].error,
+#contact_form textarea.error,
+#commentform input[type="text"].error,
+#commentform textarea.error
+{
+	-webkit-box-shadow: inset 0px 0px 0px 2px #ff6b6b;
+	   -moz-box-shadow: inset 0px 0px 0px 2px #ff6b6b;
+	        box-shadow: inset 0px 0px 0px 2px #ff6b6b;
+}
+
+/*
+ * Sidebar Menu links.
+ *========================================================================================================================================*/
+#sidebar .widget_nav_menu ul li a,
+#sidebar .widget_meta ul li a,
+#sidebar .widget_links ul li a,
+#sidebar .widget_archive ul li a,
+#sidebar .widget_pages ul li a,
+#sidebar .widget_categories ul li a,
+#sidebar .widget_recent_comments ul li a,
+#sidebar .widget_recent_entries ul li a			{ color: #fff; }
+#sidebar .widget_nav_menu ul li a:hover,
+#sidebar .widget_meta ul li a:hover,
+#sidebar .widget_links ul li a:hover,
+#sidebar .widget_archive ul li a:hover,
+#sidebar .widget_pages ul li a:hover,
+#sidebar .widget_categories ul li a:hover,
+#sidebar .widget_recent_comments ul li a:hover,
+#sidebar .widget_recent_entries ul li a:hover	{ color: #c7f464; }
+#sidebar .widget_tag_cloud a 					{ color: #c7f464; }
+#sidebar .widget_tag_cloud a:hover 				{ color: #fff; }
+
+/*
+ * Main Footer's link and hover colour.
+ *========================================================================================================================================*/
+#main_footer_overlay a:hover					{ color: #ffffff; }
+#main_footer_overlay a							{ color: #c7f464; }

@@ -1,0 +1,265 @@
+/*
+
+	Theme Name: Born Again - One Page Portfolio Site
+	Author:		Dan Richardson (Subatomic Themes)
+	Version:	1.0
+	Stylesheet:	Media Queries for displaying on other devices (media.css)
+	
+/*
+
+/* Note: Design for a width of 768px - Tablet (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 959px) 
+{
+
+	.container                  	        { width: 768px; }
+	.container .column,
+	.container .columns            		    { margin-left: 10px; margin-right: 10px; }
+	.column.first, .columns.first  		    { margin-left: 0; margin-right: 10px; }
+	.column.last,  .columns.last        	{ margin-right: 0; margin-left: 10px; }
+	.first.last                         	{ margin-left: 0; margin-right: 0; }
+
+	.container .one.column,
+	.container .one.columns             	{ width: 28px;  }
+	.container .two.columns             	{ width: 76px;  }
+	.container .three.columns           	{ width: 124px; }
+	.container .four.columns            	{ width: 172px; }
+	.container .five.columns            	{ width: 220px; }
+	.container .six.columns             	{ width: 268px; }
+	.container .seven.columns           	{ width: 316px; }
+	.container .eight.columns           	{ width: 364px; }
+	.container .nine.columns            	{ width: 412px; }
+	.container .ten.columns             	{ width: 460px; }
+	.container .eleven.columns          	{ width: 508px; }
+	.container .twelve.columns          	{ width: 556px; }
+	.container .thirteen.columns        	{ width: 604px; }
+	.container .fourteen.columns        	{ width: 652px; }
+	.container .fifteen.columns         	{ width: 700px; }
+	.container .sixteen.columns         	{ width: 748px; }
+
+	.container .one-third.column        	{ width: 236px; }
+	.container .two-thirds.column       	{ width: 492px; }
+	
+	.container .blog-half.column			{ width: 244px; }
+
+	/* Offsets */
+	.container .offset-by-one           	{ padding-left: 48px;  }
+	.container .offset-by-two           	{ padding-left: 96px;  }
+	.container .offset-by-three         	{ padding-left: 144px; }
+	.container .offset-by-four          	{ padding-left: 192px; }
+	.container .offset-by-five          	{ padding-left: 240px; }
+	.container .offset-by-six           	{ padding-left: 288px; }
+	.container .offset-by-seven         	{ padding-left: 336px; }
+	.container .offset-by-eight         	{ padding-left: 384px; }
+	.container .offset-by-nine          	{ padding-left: 432px; }
+	.container .offset-by-ten           	{ padding-left: 480px; }
+	.container .offset-by-eleven        	{ padding-left: 528px; }
+	.container .offset-by-twelve        	{ padding-left: 576px; }
+	.container .offset-by-thirteen      	{ padding-left: 624px; }
+	.container .offset-by-fourteen      	{ padding-left: 672px; }
+	.container .offset-by-fifteen       	{ padding-left: 720px; }
+	
+	#navigation ul							{ font-size: 12px; }
+	#navigation ul li a						{ padding-left: 20px; padding-right: 20px; }
+	#main_intro_overlay						{ padding-top: 60px; }
+	#slogan_cycle							{ top: 560px;}
+	#slogan_cycle							{ margin-bottom: 40px; }
+	#slogan_cycle,
+	.slogan_slide							{ width: 600px; }
+	#main_intro_overlay ul					{ padding-bottom: 40px;	}
+	section h1								{ background-size: contain; }
+	.cta p									{ width: 500px;	}
+	.team_photo img							{ max-height: 124px; }
+	.entry_date								{ width: 76px; height: 76px; background-size: contain; font-size: 18px; line-height: 76px; }
+	/*#main_footer_overlay p					{ font-size: 18px; }*/
+	
+	#main_intro								{ background-size: cover;}
+	
+	#main_footer							{ height: 400px; padding-bottom: 80px; padding-top: 0px; background-size: auto 70%; background-position: 50% 110%;}
+	#main_footer_overlay .container                   { bottom: -300px; }
+	#main_footer_overlay p					{font-size: 12px; line-height:16px;}
+	
+	#main_footer							{ background: url(../images/Screenshot_174_s.jpg) no-repeat 50% 50% #4ecdc4; height: 320px; padding-top: 100px; background-size: cover;}
+	
+	/*#youtube									{width:768px;height:431px;}*/
+}
+
+/* Note: Design for a width of 320px - Mobile (Portrait) */
+@media only screen and (max-width: 767px) 
+{
+
+	.container 								{ width: 90%; }
+	.container .columns,
+	.container .column 						{ margin: 0; }
+
+	.container .one.column,
+	.container .one.columns,
+	.container .two.columns,
+	.container .three.columns,
+	.container .four.columns,
+	.container .five.columns,
+	.container .six.columns,
+	.container .seven.columns,
+	.container .eight.columns,
+	.container .nine.columns,
+	.container .ten.columns,
+	.container .eleven.columns,
+	.container .twelve.columns,
+	.container .thirteen.columns,
+	.container .fourteen.columns,
+	.container .fifteen.columns,
+	.container .sixteen.columns,
+	.container .one-third.column,
+	.container .two-thirds.column,
+	.container .blog-half.column			{ width: 100%; margin-bottom: 20px; }
+
+	/* Offsets */
+	.container .offset-by-one,
+	.container .offset-by-two,
+	.container .offset-by-three,
+	.container .offset-by-four,
+	.container .offset-by-five,
+	.container .offset-by-six,
+	.container .offset-by-seven,
+	.container .offset-by-eight,
+	.container .offset-by-nine,
+	.container .offset-by-ten,
+	.container .offset-by-eleven,
+	.container .offset-by-twelve,
+	.container .offset-by-thirteen,
+	.container .offset-by-fourteen,
+	.container .offset-by-fifteen 			{ padding-left: 0; }
+
+	body									{ padding-top: 0; }
+	
+	#page_header							{ position: static;	}
+	#page_header_after						{ position: absolute; }
+	#page_header_overlay img				{ float: none; }
+	#navigation								{ display: none; position: absolute; clear: left; z-index: 999; width: 100%; }
+	#navigation ul							{ width: 100%; float: left;	display: block;	-webkit-box-shadow: 4px 4px 0px rgba(0,0,0,0.25); -moz-box-shadow: 4px 4px 0px rgba(0,0,0,0.25); box-shadow: 4px 4px 0px rgba(0,0,0,0.25); }
+	#navigation ul li						{ display: block; background: url(../images/backgrounds/noise_light.png) repeat #545454; }
+	#navigation ul li a						{ display: block; height: 60px; line-height: 60px; -moz-box-shadow: inset 0px 1px 0px rgba(0,0,0,0.15); -webkit-box-shadow: inset 0px 1px 0px rgba(0,0,0,0.15);	box-shadow: inset 0px 1px 0px rgba(0,0,0,0.15);	}
+	#mobile_menu							{ display: block; }
+	#main_intro_overlay h1,
+	#main_intro_overlay h1 span				{ font-size: 36px; line-height: 40px; text-transform: none;	}
+	#slogan_cycle							{ margin-bottom: 40px; }
+	#slogan_cycle,
+	.slogan_slide,
+	.cta p									{ width: 300px;	}
+	#main_intro_overlay ul					{ padding-bottom: 40px;	}
+	#main_intro_overlay p					{ font-size: 24px; line-height: 34px; }
+	section h1									{ background-size: contain;	}
+	.cta a									{ float: none; }
+	.entry_date
+	{
+		height: 60px;
+		background: #fff;
+		line-height: 60px;
+		-webkit-border-radius: 60px;
+		   -moz-border-radius: 60px;
+		        border-radius: 60px;
+		-webkit-box-shadow: 3px 3px 0px rgba(0,0,0,0.15);
+		   -moz-box-shadow: 3px 3px 0px rgba(0,0,0,0.15);
+		        box-shadow: 3px 3px 0px rgba(0,0,0,0.15);
+	}
+	.team_photo ul							{ display: block; }
+	.team_content h2,
+	.team_content h4						{ float: none; text-align: center; }
+	.team_content h3						{ display: none; }
+	.testimonial blockquote p				{ padding: 60px 0px 60px 0px; }
+	.testimonial_01,
+	.testimonial_02,
+	.testimonial_03,
+	.testimonial_04,
+	.testimonial_05,
+	#subpage_intro,
+	#main_intro								{ background-attachment: scroll !important; }
+	/*#main_footer_overlay p,
+	#main_footer_overlay p:last-of-type		{ float: none; font-size: 12px; text-align: center;	margin-bottom: 20px; }*/
+	.older_posts_link						{ margin-right: 10px; }
+	.newer_posts_link						{ margin-left: 10px; }
+	#portfolio_overlay,
+	#team_overlay							{ padding-bottom: 160px; }
+	.post_meta								{ text-align: left;	}
+	.post_meta span							{ display: block; margin-bottom: 10px; }
+	.post_meta a							{ margin-bottom: 0;	}
+	.blog_pagination a						{ font-size: 1%; }
+	.comment_content,
+	.comment_reply							{ margin-left: 0;	}
+	
+	#main_intro								{ background: url(../images/Screenshot_155s.jpg) no-repeat 50% 50% #4ecdc4; height: 380px; background-size: 420px;}
+	/*#main_intro								{ height: 80%; background-size: cover;}*/
+	#main_footer							{ background: url(../images/Screenshot_174_s.jpg) no-repeat 50% 50% #4ecdc4; height: 320px; padding-top: 100px; background-size: cover;}
+	/*#main_footer							{ height: 320px; padding-bottom: 80px; padding-top: 0px; background-size: auto 60%; background-position: 50% 110%;}*/
+
+	#slogan_cycle							{ top: 190px;}
+	#slogan_cycle,
+	.slogan_slide,
+	.cta p									{ font-size: 32px; }
+	#main_footer_overlay .container                   { bottom: -200px; }
+	#main_footer_overlay p					{font-size: 10px; line-height:14px;}
+	
+	#page_header,
+	#gamespace_overlay 						{ background: url(../images/bg003_s.jpg) fixed #575757; }
+	
+	.container  h2         	         	 			{ font-size: 20px;}
+	.container  blockquote,
+	.container  blockquote  p       	         	 	{ font-size: 16px; line-height: 18px;}
+	
+	#page_header							{height: 50px;}
+	#page_header_overlay img					{height: 50px;}
+	#page_header_after						{top: 50px;}
+	#navigation ul li a							{height: 50px;}
+	#mobile_menu							{width:50px; height: 50px; background-size: 50px 50px;}
+	
+
+	#gamespace_overlay h2					{padding: 30px 0px 10px 0px;}
+	#gamespace_overlay blockquote p			{padding: 0px 10px 40px 10px;}
+	
+	/*#youtube								{width:300px;height:168px;}*/
+	/*#youtube								{padding: 30px 0px 0px 0px;}*/
+	
+	
+	#facebook {
+	width: 20px;
+	height: 20px;
+	margin-top: 2px;
+	margin-left: 20px;
+	margin-right: 20px;}
+	
+	.screenshot img,
+	.screenshot2 img							{ margin-left: 0;}
+}
+
+/* Note: Design for a width of 480px - Mobile (Landscape) */
+/*@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+
+	.container 								{ width: 80%; }
+	.container .columns,
+	.container .column 						{ margin: 0; }
+
+	.container .one.column,
+	.container .one.columns,
+	.container .two.columns,
+	.container .three.columns,
+	.container .four.columns,
+	.container .five.columns,
+	.container .six.columns,
+	.container .seven.columns,
+	.container .eight.columns,
+	.container .nine.columns,
+	.container .ten.columns,
+	.container .eleven.columns,
+	.container .twelve.columns,
+	.container .thirteen.columns,
+	.container .fourteen.columns,
+	.container .fifteen.columns,
+	.container .sixteen.columns,
+	.container .one-third.column,
+	.container .two-thirds.column,
+	.container .blog-half.column			{ width: 100%; margin-bottom: 20px; }
+	
+	#slogan_cycle,
+	.slogan_slide,
+	.cta p									{ width: 420px; }
+}*/

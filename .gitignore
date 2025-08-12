@@ -1,0 +1,53 @@
+# Node modules (if any future JS tooling is used)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# VS Code settings
+.vscode/
+
+# PHPStorm and other IDEs
+.idea/
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Composer vendor directory (if PHP Composer is used)
+vendor/
+
+# PHP mailer zip archive
+phpMailer/phpMailer_v2.2.1_.zip
+
+# Lightbox build artifacts (if any)
+lightbox/node_modules/
+
+# Ignore compiled CSS/JS (if any build process is added)
+css/*.min.css
+js/*.min.js
+
+# Ignore image cache or temp files
+images/backgrounds/placeholder_big.png
+
+# Ignore test and doc folders in phpMailer
+phpMailer/test/
+phpMailer/docs/
+phpMailer/phpdoc/
+
+# Ignore language files in phpMailer
+phpMailer/language/
+
+# Ignore README and LICENSE files in submodules
+phpMailer/README
+phpMailer/README.markdown
+phpMailer/LICENSE
+
+# Ignore all .env files
+.env
+.env.*
