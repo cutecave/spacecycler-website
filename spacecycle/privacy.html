@@ -70,6 +70,7 @@
 	"sameAs": "https://www.facebook.com/SpaceCycleGame/"
 }
 </script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
 	
 	<!-- Load Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Russo+One|Exo:600' rel='stylesheet' type='text/css'>
@@ -409,6 +410,27 @@
 	changeLanguage(GetURLParameter('lang'));
 	</script>
 	
+	<!-- JAVASCRIPT FILES Start -->
+	<script src="js/jquery.cycle.all.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.formalize.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.custom.js"></script>
+	<!-- JAVASCRIPT FILES End -->
+	
+	<!-- SLOGAN SLIDER SCRIPT Start -->
+	<script type="text/javascript" defer>
+	$('#slogan_cycle').cycle({
+	
+		fx 				: 'scrollDown',
+		speed 			: 600,
+		timeout			: 800,
+		easing 			: 'easeInOutBack',
+		cleartypeNoBg	: true,				// Leave true to remove solid background colour in IE8.
+		slideResize 	: false
+		
+	});
+	</script>
 
 </body>
 </html>
