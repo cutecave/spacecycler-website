@@ -27,7 +27,7 @@ body											{ color: #fff; background: #fff; }
 /*
  * Main Intro - Background Colour and Image Overlay (Optional).
  *========================================================================================================================================*/
-#main_intro										{ background: url(../images/Screenshot_155.jpg) no-repeat 50% 50% #4ecdc4; height: 910px;}
+#main_intro										{ background: url(../images/Screenshot_155.webp) no-repeat 50% 50% #4ecdc4; height: 910px;}
 #main_intro_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; height: 910px;}
 
 #main_intro_overlay p					{ color: #000;text-shadow: 0px 0px 2px #FFF,
