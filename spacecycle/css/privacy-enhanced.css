@@ -1,0 +1,162 @@
+/*
+ * Enhanced styles for privacy.html
+ * Improved hyperlinks and list styling
+ */
+
+/* ===== Hyperlink Styling ===== */
+#gamespace_overlay a {
+    color: #66FFDD;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(102, 255, 221, 0.3);
+    transition: all 0.3s ease;
+    padding-bottom: 2px;
+    font-weight: 600;
+}
+
+#gamespace_overlay a:hover {
+    color: #88FFEE;
+    border-bottom-color: #66FFDD;
+    text-shadow: 0 0 8px rgba(102, 255, 221, 0.4);
+    transform: translateY(-1px);
+}
+
+#gamespace_overlay a:active {
+    transform: translateY(0);
+}
+
+/* Email link special styling */
+#gamespace_overlay a[href^="mailto:"] {
+    color: #99DDFF;
+    border-bottom-color: rgba(153, 221, 255, 0.3);
+}
+
+#gamespace_overlay a[href^="mailto:"]:hover {
+    color: #BBDDFF;
+    border-bottom-color: #99DDFF;
+    text-shadow: 0 0 8px rgba(153, 221, 255, 0.4);
+}
+
+/* External link indicator (for https links) */
+#gamespace_overlay a[href^="https://"]::after {
+    content: " ↗";
+    font-size: 0.85em;
+    opacity: 0.7;
+    margin-left: 2px;
+    transition: opacity 0.3s ease;
+}
+
+#gamespace_overlay a[href^="https://"]:hover::after {
+    opacity: 1;
+}
+
+/* ===== List Styling ===== */
+#gamespace_overlay ul {
+    margin: 20px 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+#gamespace_overlay ul li {
+    position: relative;
+    padding: 12px 0 12px 35px;
+    margin: 8px 0;
+    line-height: 1.7;
+    transition: all 0.3s ease;
+}
+
+/* Custom bullet point - cyan diamond */
+#gamespace_overlay ul li::before {
+    content: "◆";
+    position: absolute;
+    left: 8px;
+    color: #66FFDD;
+    font-size: 14px;
+    line-height: 1.7;
+    transition: all 0.3s ease;
+}
+
+#gamespace_overlay ul li:hover {
+    padding-left: 40px;
+    background: rgba(102, 255, 221, 0.03);
+    border-radius: 4px;
+}
+
+#gamespace_overlay ul li:hover::before {
+    color: #88FFEE;
+    text-shadow: 0 0 8px rgba(102, 255, 221, 0.5);
+    transform: scale(1.2);
+    left: 10px;
+}
+
+/* Alternative bullet styles for variety */
+#gamespace_overlay blockquote > ul > li:nth-child(even)::before {
+    content: "▶";
+}
+
+/* Nested lists */
+#gamespace_overlay ul ul {
+    margin: 10px 0;
+}
+
+#gamespace_overlay ul ul li {
+    padding-left: 30px;
+    font-size: 0.95em;
+}
+
+#gamespace_overlay ul ul li::before {
+    content: "▸";
+    font-size: 12px;
+    color: #88CCDD;
+}
+
+/* ===== Strong/Bold text enhancement ===== */
+#gamespace_overlay strong {
+    color: #66FFDD;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 5px rgba(102, 255, 221, 0.2);
+}
+
+/* ===== Section dividers ===== */
+#gamespace_overlay blockquote > p > br + br + strong {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* ===== Smooth scrolling for anchor links ===== */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== Responsive adjustments ===== */
+@media only screen and (max-width: 767px) {
+    #gamespace_overlay ul li {
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    
+    #gamespace_overlay ul li::before {
+        left: 5px;
+        font-size: 12px;
+    }
+    
+    #gamespace_overlay ul li:hover {
+        padding-left: 32px;
+    }
+}
+
+/* ===== Additional polish ===== */
+#gamespace_overlay blockquote p {
+    text-align: left;
+}
+
+/* Selection color to match theme */
+#gamespace_overlay ::selection {
+    background: rgba(102, 255, 221, 0.3);
+    color: #fff;
+}
+
+#gamespace_overlay ::-moz-selection {
+    background: rgba(102, 255, 221, 0.3);
+    color: #fff;
+}
