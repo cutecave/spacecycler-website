@@ -70,24 +70,6 @@
 	"sameAs": "https://www.facebook.com/SpaceCycleGame/"
 }
 </script>
-
-	<!-- Javascript Files -->
-	<script src="js/jquery-1.9.0.min.js"></script>
-	<!--[if lt IE 9]>
-		<script src="js/jquery.html5.js"></script>
-	<![endif]-->
-	
-	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-47168581-1', 'manacell.com');
-		ga('create', 'UA-47168581-1', 'auto');
-		ga('require', 'linkid', 'linkid.js');
-		ga('send', 'pageview');
-	</script>
 	
 	<!-- Load Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Russo+One|Exo:600' rel='stylesheet' type='text/css'>
@@ -114,7 +96,7 @@
 				<div class="sixteen columns">
 		
 					<!-- LOGO Start -->
-					<a class="back_to_top" href="#">
+					<a class="back_to_top" href="index.html">
 						<img src="images/manacell_logo.png" height="90" alt="Manacell Logo" />
 					</a>
 					<!-- LOGO End -->
@@ -146,69 +128,16 @@
 	<!-- TESTIMONIAL DIVIDER Start -->
 	<section id="gamespace">
 		<div id="gamespace_overlay">
-			
 			<div class="container">
 				
-							<!-- SECTION HEADING Start -->
+				<!-- SECTION HEADING Start -->
 				<div class="sixteen columns">
-					<h2><span id="title08">隱私權保護政策 - Space Cycler</span></h2>
+					<h2><span id="title08"></span></h2>
 				</div>
+
 				<!-- SECTION HEADING End -->
 				<p id="text08">
-					最後更新日期：[2025年10月]<br><br>
-				非常歡迎您使用「Space Cycler」（以下簡稱本 APP）。我們重視您的隱私權，特此說明本 APP 的隱私權保護政策。<br><br>
-				<strong>一、資料收集與使用</strong><br><br>
-
-本 APP 不收集、不儲存、不傳輸任何個人識別資料至開發者伺服器。<br><br>
-
-<strong>二、iCloud 同步功能（選用）</strong><br><br>
-
-本 APP 提供 iCloud 同步功能，讓您可以在多個裝置間同步遊戲進度：<br>
-<ul>
-<li>儲存內容：遊戲進度、關卡狀態、遊戲設定等遊戲相關資料</li>
-<li>儲存位置：資料儲存於您的個人 iCloud 帳號中（使用 Apple CloudKit 服務）</li>
-<li>資料存取：開發者無法存取您儲存在 iCloud 中的資料，僅有您本人透過已登入的裝置可以存取</li>
-<li>資料控制：您可以透過 iOS 設定 > [您的名稱] > iCloud > 管理儲存空間 > Space Cycler 來管理或刪除儲存的資料</li>
-<li>選擇退出：iCloud 同步功能需要您登入 iCloud 帳號才會啟用，您可以隨時在 iOS 設定中關閉本 APP 的 iCloud 存取權限</li>
-</ul>
-使用 iCloud 同步功能時，您的資料受到 Apple 的 <a href="https://www.apple.com/legal/internet-services/icloud/">iCloud 服務條款</a> 和 <a href="https://www.apple.com/tw/privacy/">Apple 隱私權政策</a> 的保護。<br><br>
-
-
-<strong>三、本地資料儲存</strong><br><br>
-
-
-本 APP 會在您的裝置上儲存遊戲進度和設定，此資料僅儲存於您的裝置本地，不會傳送給開發者或第三方。<br><br>
-
-
-<strong>四、不使用的服務</strong><br><br>
-
-本 APP 不使用以下服務：
-<ul>
-<li>Facebook 登入或分享功能</li>
-<li>第三方分析工具</li>
-<li>廣告服務</li>
-<li>任何追蹤或數據收集工具</li>
-</ul>
-
-<strong>五、第三方連結</strong><br><br>
-本 APP 可能包含連結至 Game Center 等 Apple 服務，這些服務受 Apple 的隱私權政策規範，不適用本隱私權政策。<br><br>
-
-<strong>六、資料保護</strong><br><br>
-由於本 APP 不收集任何個人資料至開發者伺服器，因此不存在資料外洩的風險。您在 iCloud 中的資料受到 Apple 的安全保護措施保護。<br><br>
-
-<strong>七、兒童隱私</strong><br><br>
-本 APP 適合所有年齡層使用，且不收集任何使用者的個人資料。<br><br>
-
-<strong>八、隱私權政策變更</strong><br><br>
-本隱私權政策可能會不定期更新。重大變更時，我們會在 APP 更新說明中告知您。<br><br>
-
-<strong>九、聯繫我們</strong><br><br>
-
-如果您對本隱私權政策有任何疑問，請聯繫：<br>
-<a href="mailto:info@manacell.com">info@manacell.com</a><br><br>
-
-</p>
-
+				</p>
 			</div>
 		</div>
 	</section>
@@ -232,10 +161,182 @@
 	<script>
 	function changeLanguage(nn)
 	{
-		switch (nn)
-		{
-		case 'en':
-		default:
+		// Check if privacy policy elements exist
+		var isPrivacyPage = document.getElementById("title08") !== null;
+		
+		if (isPrivacyPage) {
+			// Privacy Policy Page
+			switch (nn)
+			{
+			case 'en':
+			default:
+				document.getElementById("title08").innerHTML = "Privacy Policy - Space Cycler";
+				document.getElementById("text08").innerHTML = `
+					Last Updated: [October 2025]<br><br>
+					Thank you for using "Space Cycler" (hereinafter referred to as "this APP"). We value your privacy and hereby explain the privacy policy of this APP.<br><br>
+					<strong>1. Data Collection and Use</strong><br><br>
+
+					This APP does not collect, store, or transmit any personally identifiable information to the developer's servers.<br><br>
+
+					<strong>2. iCloud Sync (Optional)</strong><br><br>
+
+					This APP offers iCloud sync functionality to allow you to sync game progress across multiple devices:<br>
+					<ul>
+					<li>Stored Content: Game progress, level status, game settings, and other game-related data</li>
+					<li>Storage Location: Data is stored in your personal iCloud account (using Apple CloudKit service)</li>
+					<li>Data Access: The developer cannot access your data stored in iCloud; only you can access it through your logged-in devices</li>
+					<li>Data Control: You can manage or delete stored data through iOS Settings > [Your Name] > iCloud > Manage Storage > Space Cycler</li>
+					<li>Opt-out: iCloud sync requires you to log in to your iCloud account to activate. You can disable this APP's iCloud access at any time in iOS Settings</li>
+					</ul>
+					When using iCloud sync, your data is protected by Apple's <a href="https://www.apple.com/legal/internet-services/icloud/">iCloud Terms of Service</a> and <a href="https://www.apple.com/privacy/">Apple Privacy Policy</a>.<br><br>
+
+					<strong>3. Local Data Storage</strong><br><br>
+
+					This APP stores game progress and settings on your device. This data is only stored locally on your device and is not transmitted to the developer or third parties.<br><br>
+
+					<strong>4. Services Not Used</strong><br><br>
+
+					This APP does not use the following services:
+					<ul>
+					<li>Facebook login or sharing features</li>
+					<li>Third-party analytics tools</li>
+					<li>Advertising services</li>
+					<li>Any tracking or data collection tools</li>
+					</ul>
+
+					<strong>5. Third-Party Links</strong><br><br>
+					This APP may contain links to Apple services such as Game Center. These services are governed by Apple's privacy policy and are not covered by this privacy policy.<br><br>
+
+					<strong>6. Data Protection</strong><br><br>
+					Since this APP does not collect any personal data to the developer's servers, there is no risk of data leakage. Your data in iCloud is protected by Apple's security measures.<br><br>
+
+					<strong>7. Children's Privacy</strong><br><br>
+					This APP is suitable for all ages and does not collect any personal data from users.<br><br>
+
+					<strong>8. Privacy Policy Changes</strong><br><br>
+					This privacy policy may be updated from time to time. We will notify you of significant changes in the APP update notes.<br><br>
+
+					<strong>9. Contact Us</strong><br><br>
+
+					If you have any questions about this privacy policy, please contact:<br>
+					<a href="mailto:info@manacell.com">info@manacell.com</a><br><br>
+				`;
+				break;
+				
+			case 'ja':
+				document.getElementById("title08").innerHTML = "プライバシーポリシー - Space Cycler";
+				document.getElementById("text08").innerHTML = `
+					最終更新日：[2025年10月]<br><br>
+					「Space Cycler」（以下「本アプリ」）をご利用いただきありがとうございます。当社はお客様のプライバシーを重視しており、本アプリのプライバシーポリシーについて説明いたします。<br><br>
+					<strong>1. データの収集と使用</strong><br><br>
+
+					本アプリは、個人を特定できる情報を開発者のサーバーに収集、保存、送信することはありません。<br><br>
+
+					<strong>2. iCloud 同期機能（オプション）</strong><br><br>
+
+					本アプリは、複数のデバイス間でゲームの進行状況を同期できるiCloud同期機能を提供しています：<br>
+					<ul>
+					<li>保存内容：ゲームの進行状況、レベルステータス、ゲーム設定などのゲーム関連データ</li>
+					<li>保存場所：データは個人のiCloudアカウントに保存されます（Apple CloudKitサービスを使用）</li>
+					<li>データアクセス：開発者はiCloudに保存されたデータにアクセスできません。ログインしたデバイスからのみアクセスできます</li>
+					<li>データ管理：iOS設定 > [あなたの名前] > iCloud > ストレージを管理 > Space Cycler から保存データを管理または削除できます</li>
+					<li>オプトアウト：iCloud同期機能は、iCloudアカウントにログインしている場合にのみ有効になります。iOS設定からいつでも本アプリのiCloudアクセス権限を無効にできます</li>
+					</ul>
+					iCloud同期機能を使用する場合、データは Apple の <a href="https://www.apple.com/legal/internet-services/icloud/">iCloud 利用規約</a> および <a href="https://www.apple.com/jp/privacy/">Apple プライバシーポリシー</a> によって保護されます。<br><br>
+
+					<strong>3. ローカルデータストレージ</strong><br><br>
+
+					本アプリは、ゲームの進行状況と設定をデバイスに保存します。このデータはデバイスのローカルにのみ保存され、開発者や第三者には送信されません。<br><br>
+
+					<strong>4. 使用しないサービス</strong><br><br>
+
+					本アプリは以下のサービスを使用しません：
+					<ul>
+					<li>Facebook ログインまたは共有機能</li>
+					<li>サードパーティの分析ツール</li>
+					<li>広告サービス</li>
+					<li>追跡またはデータ収集ツール</li>
+					</ul>
+
+					<strong>5. 第三者へのリンク</strong><br><br>
+					本アプリには、Game Center などの Apple サービスへのリンクが含まれる場合があります。これらのサービスは Apple のプライバシーポリシーに準拠しており、本プライバシーポリシーには適用されません。<br><br>
+
+					<strong>6. データ保護</strong><br><br>
+					本アプリは開発者のサーバーに個人データを収集しないため、データ漏洩のリスクはありません。iCloud 内のデータは Apple のセキュリティ対策によって保護されています。<br><br>
+
+					<strong>7. 子供のプライバシー</strong><br><br>
+					本アプリはすべての年齢層に適しており、ユーザーの個人データを収集しません。<br><br>
+
+					<strong>8. プライバシーポリシーの変更</strong><br><br>
+					このプライバシーポリシーは随時更新される場合があります。重要な変更がある場合は、アプリの更新ノートでお知らせします。<br><br>
+
+					<strong>9. お問い合わせ</strong><br><br>
+
+					このプライバシーポリシーについてご質問がある場合は、以下までお問い合わせください：<br>
+					<a href="mailto:info@manacell.com">info@manacell.com</a><br><br>
+				`;
+				break;
+				
+			case 'zh':
+				document.getElementById("title08").innerHTML = "隱私權保護政策 - Space Cycler";
+				document.getElementById("text08").innerHTML = `
+					最後更新日期：[2025年10月]<br><br>
+					非常歡迎您使用「Space Cycler」（以下簡稱本 APP）。我們重視您的隱私權，特此說明本 APP 的隱私權保護政策。<br><br>
+					<strong>一、資料收集與使用</strong><br><br>
+
+					本 APP 不收集、不儲存、不傳輸任何個人識別資料至開發者伺服器。<br><br>
+
+					<strong>二、iCloud 同步功能（選用）</strong><br><br>
+
+					本 APP 提供 iCloud 同步功能，讓您可以在多個裝置間同步遊戲進度：<br>
+					<ul>
+					<li>儲存內容：遊戲進度、關卡狀態、遊戲設定等遊戲相關資料</li>
+					<li>儲存位置：資料儲存於您的個人 iCloud 帳號中（使用 Apple CloudKit 服務）</li>
+					<li>資料存取：開發者無法存取您儲存在 iCloud 中的資料，僅有您本人透過已登入的裝置可以存取</li>
+					<li>資料控制：您可以透過 iOS 設定 > [您的名稱] > iCloud > 管理儲存空間 > Space Cycler 來管理或刪除儲存的資料</li>
+					<li>選擇退出：iCloud 同步功能需要您登入 iCloud 帳號才會啟用，您可以隨時在 iOS 設定中關閉本 APP 的 iCloud 存取權限</li>
+					</ul>
+					使用 iCloud 同步功能時，您的資料受到 Apple 的 <a href="https://www.apple.com/legal/internet-services/icloud/">iCloud 服務條款</a> 和 <a href="https://www.apple.com/tw/privacy/">Apple 隱私權政策</a> 的保護。<br><br>
+
+					<strong>三、本地資料儲存</strong><br><br>
+
+					本 APP 會在您的裝置上儲存遊戲進度和設定，此資料僅儲存於您的裝置本地，不會傳送給開發者或第三方。<br><br>
+
+					<strong>四、不使用的服務</strong><br><br>
+
+					本 APP 不使用以下服務：
+					<ul>
+					<li>Facebook 登入或分享功能</li>
+					<li>第三方分析工具</li>
+					<li>廣告服務</li>
+					<li>任何追蹤或數據收集工具</li>
+					</ul>
+
+					<strong>五、第三方連結</strong><br><br>
+					本 APP 可能包含連結至 Game Center 等 Apple 服務，這些服務受 Apple 的隱私權政策規範，不適用本隱私權政策。<br><br>
+
+					<strong>六、資料保護</strong><br><br>
+					由於本 APP 不收集任何個人資料至開發者伺服器，因此不存在資料外洩的風險。您在 iCloud 中的資料受到 Apple 的安全保護措施保護。<br><br>
+
+					<strong>七、兒童隱私</strong><br><br>
+					本 APP 適合所有年齡層使用，且不收集任何使用者的個人資料。<br><br>
+
+					<strong>八、隱私權政策變更</strong><br><br>
+					本隱私權政策可能會不定期更新。重大變更時，我們會在 APP 更新說明中告知您。<br><br>
+
+					<strong>九、聯繫我們</strong><br><br>
+
+					如果您對本隱私權政策有任何疑問，請聯繫：<br>
+					<a href="mailto:info@manacell.com">info@manacell.com</a><br><br>
+				`;
+				break;
+			}
+		} else {
+			// Main Page (index.html)
+			switch (nn)
+			{
+			case 'en':
+			default:
 			//document.getElementById("title00").innerHTML = "<h1><span>Co-op Tunnel Shooter</span></h1>";
 			document.getElementById("slide01").innerHTML = "Now on sale!";
 			document.getElementById("slide02").innerHTML = "1 to 2 player Co-op.";
@@ -288,7 +389,8 @@
 			
 			document.getElementById("title04").innerHTML = "獨特的怪物與BOSS！";
 			document.getElementById("text04").innerHTML = "在遊戲的<strong>五大關卡</strong>中，你要擊敗像章魚一樣行跡詭異的<strong>外星軍團</strong>，有時候他們會駕駛擁有強大砲火的宇宙飛船，朝玩家大量的噴射子彈。另外還有工程學派的<strong>大眼外星工程師</strong>，他們喜歡挖掘並破壞寶貴的星球，工程機械破壞力驚人。最後，只有一舉殲滅在宇宙盡頭的<strong>巨型蟲巢</strong>，才能暫時平息宇宙資源的掠奪浩劫。";
-			break;
+				break;
+			}
 		}
 	}
 	function GetURLParameter(sParam)
@@ -307,27 +409,6 @@
 	changeLanguage(GetURLParameter('lang'));
 	</script>
 	
-	<!-- JAVASCRIPT FILES Start -->
-	<script src="js/jquery.cycle.all.js"></script>
-	<script src="js/jquery.easing.js"></script>
-	<script src="js/jquery.formalize.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/jquery.custom.js"></script>
-	<!-- JAVASCRIPT FILES End -->
-	
-	<!-- SLOGAN SLIDER SCRIPT Start -->
-	<script type="text/javascript">
-	$('#slogan_cycle').cycle({
-	
-		fx 				: 'scrollDown',
-		speed 			: 600,
-		timeout			: 800,
-		easing 			: 'easeInOutBack',
-		cleartypeNoBg	: true,				// Leave true to remove solid background colour in IE8.
-		slideResize 	: false
-		
-	});
-	</script>
-	<!-- SLOGAN SLIDER SCRIPT End -->
+
 </body>
 </html>
