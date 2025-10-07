@@ -15,7 +15,7 @@ body											{ color: #fff; background: #fff; }
 /*
  * Page Header - Background Colour and Image Overlay (Optional).
  *========================================================================================================================================*/
-#page_header 									{ background: url(../images/bg003.jpg) no-repeat fixed 0% 0 #595959; }
+#page_header 									{ background: url(../images/bg003.webp) no-repeat fixed 0% 0 #595959; }
 #page_header_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
 
 /*
@@ -90,7 +90,7 @@ body											{ color: #fff; background: #fff; }
  *========================================================================================================================================*/
 /*#main_footer 									{ background: url(../images/backgrounds/shadow.png) no-repeat 50% 0 #404040; }
 #main_footer_overlay 							{ background: url(../images/backgrounds/noise_light.png) repeat; }*/
-#main_footer									{ background: url(../images/Screenshot_174.jpg) no-repeat 50% 20% #665599; height: 940px; background-size: cover;}
+#main_footer									{ background: url(../images/Screenshot_174.webp) no-repeat 50% 20% #665599; height: 940px; background-size: cover;}
 /*#main_footer_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }*/
 #main_footer_overlay .container                                   { bottom:-800px; }
 
@@ -110,23 +110,23 @@ body											{ color: #fff; background: #fff; }
 /*
  * Game - Space
  *========================================================================================================================================*/
-#gamespace 										{ background: url(../images/bg003.jpg) repeat fixed #665599; }
+#gamespace 										{ background: url(../images/bg003.webp) repeat fixed #665599; }
 #gamespace_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
 
 #gamespace2 										{ background: url(../images/Screenshot_152.jpg) repeat fixed #665599; }
 #gamespace2_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
 
-#gamespace3 										{ background: url(../images/bg003.jpg) repeat fixed #665599; }
+#gamespace3 										{ background: url(../images/bg003.webp) repeat fixed #665599; }
 #gamespace3_overlay								{ background: url(../images/backgrounds/noise_light.png) repeat; }
 
 /*
  * Each Testimonial Area's Background Colour and Image Overlay (Add more where needed).
  *========================================================================================================================================*/
-.testimonial_01 									{ background: url(../images/Screenshot_174.jpg) no-repeat fixed #575757; }
+.testimonial_01 									{ background: url(../images/Screenshot_174.webp) no-repeat fixed #575757; }
 .testimonial_01_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
 .testimonial_02									{ background: url(../images/bg006.png) no-repeat fixed #575757; }
 .testimonial_02_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
-.testimonial_03 									{ background: url(../images/bg003.jpg) fixed #575757; }
+.testimonial_03 									{ background: url(../images/bg003.webp) fixed #575757; }
 .testimonial_03_overlay							{ background: url(../images/backgrounds/noise_light.png) repeat; }
 .testimonial_04 									{ }
 .testimonial_04_overlay							{ }

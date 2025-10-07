@@ -78,7 +78,7 @@
 	#main_footer_overlay .container                   { bottom: -300px; }
 	#main_footer_overlay p					{font-size: 12px; line-height:16px;}
 	
-	#main_footer							{ background: url(../images/Screenshot_174_s.jpg) no-repeat 50% 50% #4ecdc4; height: 320px; padding-top: 100px; background-size: cover;}
+	#main_footer							{ background: url(../images/Screenshot_174_s.webp) no-repeat 50% 50% #4ecdc4; height: 320px; padding-top: 100px; background-size: cover;}
 	
 	/*#youtube									{width:768px;height:431px;}*/
 }
@@ -186,9 +186,9 @@
 	.comment_content,
 	.comment_reply							{ margin-left: 0;	}
 	
-	#main_intro								{ background: url(../images/Screenshot_155s.jpg) no-repeat 50% 50% #4ecdc4; height: 380px; background-size: 420px;}
+	#main_intro								{ background: url(../images/Screenshot_155s.webp) no-repeat 50% 50% #4ecdc4; height: 380px; background-size: 420px;}
 	/*#main_intro								{ height: 80%; background-size: cover;}*/
-	#main_footer							{ background: url(../images/Screenshot_174_s.jpg) no-repeat 50% 50% #4ecdc4; height: 320px; padding-top: 100px; background-size: cover;}
+	#main_footer							{ background: url(../images/Screenshot_174_s.webp) no-repeat 50% 50% #4ecdc4; height: 320px; padding-top: 100px; background-size: cover;}
 	/*#main_footer							{ height: 320px; padding-bottom: 80px; padding-top: 0px; background-size: auto 60%; background-position: 50% 110%;}*/
 
 	#slogan_cycle							{ top: 190px;}
@@ -199,7 +199,7 @@
 	#main_footer_overlay p					{font-size: 10px; line-height:14px;}
 	
 	#page_header,
-	#gamespace_overlay 						{ background: url(../images/bg003_s.jpg) fixed #575757; }
+	#gamespace_overlay 						{ background: url(../images/bg003_s.webp) fixed #575757; }
 	
 	.container  h2         	         	 			{ font-size: 20px;}
 	.container  blockquote,
