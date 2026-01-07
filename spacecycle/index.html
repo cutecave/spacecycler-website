@@ -13,11 +13,11 @@
 	<meta name="distribution" content="Taiwan">
 	<meta name="copyright" content="Copyright © 2013-2015 Manacell. All Rights Reserved.">
 	<link rev="made" href="mailto:info@manacell.com">
-	<link rev="made" href="http://www.manacell.com/">
+	<link rev="made" href="https://www.manacell.com/">
 
 	<meta property="og:title" content="Space Cycler - Co-op tunnel shooter"/>
 	<meta property="og:description" content="Space Cycler is a tunnel shooter with 2 player local co-op."/>
-	<meta property="og:image" content="http://www.manacell.com/spacecycler/images/Screenshot_174.webp">
+	<meta property="og:image" content="https://www.manacell.com/spacecycler/images/Screenshot_174.webp">
 	
 	<!-- Mobile Device Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -33,11 +33,11 @@
 	
 <script type="application/ld+json">
 {
-	"@context": "http://schema.org",
+	"@context": "https://schema.org",
 	"@type": "VideoGame",
 	"name": "Space Cycler",
 	"description": "Space Cycler is a retro style tunnel shooter, a type of shoot 'em up game that can bring you a whole new challenging and wonderful experience.",
-	"url": "http://www.manacell.com/spacecycler/",
+	"url": "https://www.manacell.com/spacecycler/",
 	"applicationCategory":"Game",
 	"genre": "Action Shooter Game",
 	"playMode": ["SinglePlayer","MultiPlayer","CoOp"],
@@ -64,7 +64,7 @@
 	],
 	"copyrightHolder": {
 		"name": "Manacell Studio",
-		"url": "http://www.manacell.com/"
+		"url": "https://www.manacell.com/"
 	},
 	"sameAs": "https://www.facebook.com/SpaceCycleGame/"
 }
@@ -77,8 +77,14 @@
 		<script src="js/jquery.html5.js"></script>
 	<![endif]-->
 	
+	<!-- Preconnect for faster resource loading -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://code.jquery.com">
+	<link rel="preconnect" href="https://www.youtube.com">
+
 	<!-- Load Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Russo+One|Exo:600' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Russo+One|Exo:600&display=swap' rel='stylesheet'>
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="images/favicons/icon-16x16.ico" type="image/vnd.microsoft.icon">
@@ -88,10 +94,9 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/icon-114x114.png">
 
-	<!-- ightbox -->
-	<script src="lightbox/js/jquery-1.11.0.min.js"></script>
-	<script src="lightbox/js/lightbox.min.js"></script>
-	<link href="lightbox/css/lightbox.css" rel="stylesheet" />
+	<!-- Lightbox (uses main jQuery 3.7.1) -->
+	<script src="lightbox/js/lightbox.min.js" defer></script>
+	<link href="lightbox/css/lightbox.css" rel="stylesheet">
 </head>
 <body>
 
@@ -247,22 +252,22 @@
 				<div class="sixteen columns">
 					<div class="screenshot">
 						<a href="images/space_cycler_screenshot_01.jpg" data-lightbox="image-square" data-title="Space Cycler Screenshot">
-							<img src="images/space_cycler_screenshot_01s.jpg" border="1"/></a>
-							
+							<img src="images/space_cycler_screenshot_01s.jpg" alt="Space Cycler Screenshot 1" loading="lazy"/></a>
+
 						<a href="images/space_cycler_screenshot_02.jpg" data-lightbox="image-square" data-title="Space Cycler Screenshot">
-							<img src="images/space_cycler_screenshot_02s.jpg" border="1"/></a>
-							
+							<img src="images/space_cycler_screenshot_02s.jpg" alt="Space Cycler Screenshot 2" loading="lazy"/></a>
+
 						<a href="images/space_cycler_screenshot_03.jpg" data-lightbox="image-square" data-title="Space Cycler Screenshot">
-							<img src="images/space_cycler_screenshot_03s.jpg" border="1"/></a>
-							
+							<img src="images/space_cycler_screenshot_03s.jpg" alt="Space Cycler Screenshot 3" loading="lazy"/></a>
+
 						<a href="images/space_cycler_screenshot_04.jpg" data-lightbox="image-square" data-title="Space Cycler Screenshot">
-							<img src="images/space_cycler_screenshot_04s.jpg" border="1"/></a>
-							
+							<img src="images/space_cycler_screenshot_04s.jpg" alt="Space Cycler Screenshot 4" loading="lazy"/></a>
+
 						<a href="images/space_cycler_screenshot_05.jpg" data-lightbox="image-square" data-title="Space Cycler Screenshot">
-							<img src="images/space_cycler_screenshot_05s.jpg" border="1"/></a>
-							
+							<img src="images/space_cycler_screenshot_05s.jpg" alt="Space Cycler Screenshot 5" loading="lazy"/></a>
+
 						<a href="images/space_cycler_screenshot_06.jpg" data-lightbox="image-square" data-title="Space Cycler Screenshot">
-							<img src="images/space_cycler_screenshot_06s.jpg" border="1"/></a>
+							<img src="images/space_cycler_screenshot_06s.jpg" alt="Space Cycler Screenshot 6" loading="lazy"/></a>
 					</div>
 				</div>
 				
@@ -274,11 +279,11 @@
 				<div class="sixteen columns">
 					<div class="screenshot2">
 						<a href="images/space_cycler_anim_01.webp" data-lightbox="image-square" data-title="Space Cycler Animation">
-							<img src="images/space_cycler_anim_01.webp" alt="Space Cycler Animation" border="1"/></a>
+							<img src="images/space_cycler_anim_01.webp" alt="Space Cycler Co-op Animation 1" loading="lazy"/></a>
 						<a href="images/space_cycler_anim_02.webp" data-lightbox="image-square" data-title="Space Cycler Animation">
-							<img src="images/space_cycler_anim_02.webp" alt="Space Cycler Animation" border="1"/></a>
+							<img src="images/space_cycler_anim_02.webp" alt="Space Cycler Co-op Animation 2" loading="lazy"/></a>
 						<a href="images/space_cycler_anim_03.webp" data-lightbox="image-square" data-title="Space Cycler Animation">
-							<img src="images/space_cycler_anim_03.webp" alt="Space Cycler Animation" border="1"/></a>
+							<img src="images/space_cycler_anim_03.webp" alt="Space Cycler Co-op Animation 3" loading="lazy"/></a>
 					</div>
 				</div>
 				
@@ -290,11 +295,11 @@
 				<div class="sixteen columns">
 					<div class="screenshot2">
 						<a href="images/space_cycler_anim_04.webp" data-lightbox="image-square" data-title="Space Cycler Animation">
-							<img src="images/space_cycler_anim_04.webp" alt="Space Cycler Animation" border="1"/></a>
+							<img src="images/space_cycler_anim_04.webp" alt="Space Cycler Weapons Animation 1" loading="lazy"/></a>
 						<a href="images/space_cycler_anim_05.webp" data-lightbox="image-square" data-title="Space Cycler Animation">
-							<img src="images/space_cycler_anim_05.webp" alt="Space Cycler Animation" border="1"/></a>
+							<img src="images/space_cycler_anim_05.webp" alt="Space Cycler Weapons Animation 2" loading="lazy"/></a>
 						<a href="images/space_cycler_anim_06.webp" data-lightbox="image-square" data-title="Space Cycler Animation">
-							<img src="images/space_cycler_anim_06.webp" alt="Space Cycler Animation" border="1"/></a>
+							<img src="images/space_cycler_anim_06.webp" alt="Space Cycler Weapons Animation 3" loading="lazy"/></a>
 					</div>
 				</div>
 				
@@ -407,11 +412,11 @@
 	</script>
 	
 	<!-- JAVASCRIPT FILES Start -->
-	<script src="js/jquery.cycle.all.js"></script>
-	<script src="js/jquery.easing.js"></script>
-	<script src="js/jquery.formalize.js"></script>
-	<script src="js/jquery.validate.js"></script>
-	<script src="js/jquery.custom.js"></script>
+	<script src="js/jquery.easing.js" defer></script>
+	<script src="js/jquery.cycle.all.js" defer></script>
+	<script src="js/jquery.formalize.js" defer></script>
+	<script src="js/jquery.validate.js" defer></script>
+	<script src="js/jquery.custom.js" defer></script>
 	<!-- JAVASCRIPT FILES End -->
 	
 	<!-- SLOGAN SLIDER SCRIPT Start -->
